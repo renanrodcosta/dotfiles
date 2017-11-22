@@ -37,4 +37,4 @@
         relink: false
         force: false
 - shell:
-    - [git submodule update --init --recursive, Installing submodules]
+    - [git submodule foreach git pull, Installing submodules]
