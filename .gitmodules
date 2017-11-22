@@ -1,0 +1,9 @@
+[submodule "dotbot"]
+	path = dotbot
+	url = https://github.com/anishathalye/dotbot
+[submodule "vim_runtime"]
+	path = vim_runtime
+	url = https://github.com/emersonsoares/vimrc
+[submodule "zprezto"]
+	path = zprezto
+	url = https://github.com/emersonsoares/prezto

@@ -1,0 +1,45 @@
+- clean: ['~']
+
+- link:
+    ~/.profile:
+        path: profile
+        create: false
+        relink: false
+        force: false
+    ~/.gitconfig:
+        path: gitconfig
+        create: false
+        relink: false
+        force: false
+    ~/.vimrc:
+        path: vimrc
+        create: false
+        relink: false
+        force: false
+    ~/.vim_runtime:
+        path: vim_runtime
+        create: false
+        relink: false
+        force: false
+    ~/.zshrc:
+        path: zshrc
+        create: false
+        relink: false
+        force: false
+    ~/.zprofile:
+        path: zprofile
+        create: false
+        relink: false
+        force: false
+    ~/.zprezto:
+        path: zprezto
+        create: false
+        relink: false
+        force: false
+    ~/.zpreztorc:
+        path: zpreztorc
+        create: false
+        relink: false
+        force: false
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
